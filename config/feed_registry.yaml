@@ -1,0 +1,21 @@
+threatfox:
+  api_url: "https://threatfox-api.abuse.ch/api/v1/"
+  save_path_raw: "data_feeds/threatfox_raw.csv"
+  save_path_master: "data_feeds/threatfox_master.csv"
+  days: 7
+
+phishtank:
+  csv_url: "http://data.phishtank.com/data/online-valid.csv"
+  save_path_raw: "data_feeds/phishtank_raw.csv"
+  save_path_master: "data_feeds/phishtank_master.csv"
+  last_run_file: "data_feeds/phishtank/last_run.txt"
+
+urlhaus:
+  csv_url: "https://urlhaus.abuse.ch/downloads/csv_online/"
+  save_path_raw: "data_feeds/urlhaus_raw.csv"
+  save_path_master: "data_feeds/urlhaus_master.csv"
+
+malwarebazaar:
+  api_url: "https://mb-api.abuse.ch/api/v1/"
+  save_path_raw: "data_feeds/malwarebazaar_raw.csv"
+  save_path_master: "data_feeds/malwarebazaar_master.csv"

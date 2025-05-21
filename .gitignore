@@ -1,0 +1,6 @@
+myenv
+.env
+data_feeds/
+trained_models/
+training_logs/
+logs
